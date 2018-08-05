@@ -7,8 +7,8 @@ This tutorial is about creating a spark cluster on the Microsoft ASURE cloud usi
 ### Create a HDInsight Service
 
 * Search for `HDInsight` in the `create a resource` search bar (a big green **+** sign in the left corner of the screen) as shown in fig11, then hit create as shown in fig12
-* ![Alternate text][img/step11.png]
-* ![Alternate text][img/step12.png]
+* ![Alternate text](img/step11.png)
+* ![Alternate text](img/step12.png)
 
 ### We will create our cluster with our custom configuration
 
@@ -22,7 +22,7 @@ This tutorial is about creating a spark cluster on the Microsoft ASURE cloud usi
 
 * Version : Spark 2.2.0 (HDI 3.6)
 
-![Alternate text][img/step13.png]
+![Alternate text](img/step13.png)
 
 ### Specify user access infromations
 
@@ -48,7 +48,7 @@ the cluster consists of multiple virtual machine which we called nodes, they wil
 
 * Default container : kratos0 (a blob container to store shared files for the cluster)
 
-![Alternate text][img/step14.png]
+![Alternate text](img/step14.png)
 
 ### Chose nodes sizes (the cluster size)
 
@@ -58,7 +58,7 @@ the cluster consists of multiple virtual machine which we called nodes, they wil
 
 * Head node size : D13 v2 (2 nodes, 16 cores)
 
-![Alternate text][img/step15.png]
+![Alternate text](img/step15.png)
 
 ### Advanced settings
 
@@ -70,7 +70,7 @@ the cluster consists of multiple virtual machine which we called nodes, they wil
 
 * click  `create` to create the cluster
 
-![Alternate text][img/step16.png]
+![Alternate text](img/step16.png)
 
 And That's it our deployement is finished
 
@@ -78,20 +78,20 @@ And That's it our deployement is finished
 
 * Go to cluster dashbord
 
-![Alternate text][img/step17.png]
-![Alternate text][img/step18.png]
+![Alternate text](img/step17.png)
+![Alternate text](img/step18.png)
 
 * login with your http credentials (connect over a http)
 
-![Alternate text][img/step19.png]
-![Alternate text][img/step20.png]
+![Alternate text](img/step19.png)
+![Alternate text](img/step20.png)
 
 * login over ssh connextion (use your ssh credentials)
 
 copy the link
-![Alternate text][img/step21.png]
+![Alternate text](img/step21.png)
 Depends on your operating system. I'm using windows 10 so i'll make use of `Ubuntu terminal application` to connect via ssh. You can also use `Putty`
-![Alternate text][img/step21.png]
+![Alternate text](img/step21.png)
 
 ```sh
 ssh sshkratosuser@kratos0-ssh.azurehdinsight.net
@@ -99,7 +99,7 @@ ssh sshkratosuser@kratos0-ssh.azurehdinsight.net
 
 You have to put in mind that your are connected to the one node so when you list files you will get the files in that specific node `hno` for this case. it's not the shared storage for that cluster.
 
-![Alternate text][img/step22.png]
+![Alternate text](img/step22.png)
 
 If you want to work with shared storage of the cluster. the storage shared with all the other nodes you have to use ``hdfs dfs` command
 
@@ -107,7 +107,7 @@ If you want to work with shared storage of the cluster. the storage shared with 
 hdfs dfs -ls /
 ```
 
-![Alternate text][img/step23.png]
+![Alternate text](img/step23.png)
 
 ## Author
 
