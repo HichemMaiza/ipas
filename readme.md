@@ -90,8 +90,8 @@ And That's it our deployement is finished
 
 copy the link
 ![step21](img/step21.PNG)
-Depends on your operating system. I'm using windows 10 so i'll make use of `Ubuntu terminal application` to connect via ssh. You can also use `Putty`
 ![step21](img/step21.PNG)
+Depending on your operating system (MAC, PC, Linux). I'm using windows 10 so i'll make use of `Ubuntu terminal application` to connect via ssh. You can also use `Putty`
 
 ```sh
 ssh sshkratosuser@kratos0-ssh.azurehdinsight.net
