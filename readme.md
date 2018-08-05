@@ -7,8 +7,7 @@ This tutorial is about creating a spark cluster on the Microsoft ASURE cloud usi
 ### Create a HDInsight Service
 
 * Search for `HDInsight` in the `create a resource` search bar (a big green **+** sign in the left corner of the screen) as shown in fig11, then hit create as shown in fig12
-
-* <img src="img/step11.png" width=800 />
+* ![step11](img/step11.PNG)
 * ![step12](img/step12.png)
 
 ### We will create our cluster with our custom configuration
