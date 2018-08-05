@@ -115,4 +115,6 @@ hdfs dfs -ls /
 
 ## Imoprtant Links
 
-* [Microsoft Azure Portal](www.portal.azure.com/)
+* [Microsoft Azure Portal](www.portal.azure.com/) 
+
+## Acknowledgements
