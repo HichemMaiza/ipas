@@ -76,7 +76,7 @@ And That's it our deployement is finished
 
 ### Work with the cluster
 
-* Go to claster dashbord
+* Go to cluster dashbord
 
 ![Alternate text][img/step17.png]
 ![Alternate text][img/step18.png]
@@ -101,7 +101,7 @@ You have to put in mind that your are connected to the one node so when you list
 
 ![Alternate text][img/step22.png]
 
-If you want to work with shared storage of the cluster. the storage shared with all the other nodes you have to use ``hdfs dfs` command 
+If you want to work with shared storage of the cluster. the storage shared with all the other nodes you have to use ``hdfs dfs` command
 
 ```sh
 hdfs dfs -ls /
